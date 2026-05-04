@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Metric Conversion</title>
+
+    <link rel="stylesheet" href="style">
+</head>
+<body>
+
+<header>
+    <h1>Metric Conversion</h1>
+</header>
+
+<section class="main-image">
+    <img src="metric conversion.jpg" alt="Metric Conversion Image">
+</section>
+
+<footer>
+    <p>
+        Christian Angelo Tamayo<br>
+        Email: ctamayo@fit.edu.ph<br>
+        Contact: 09272598044
+    </p>
+</footer>
+
+</body>
+</html>

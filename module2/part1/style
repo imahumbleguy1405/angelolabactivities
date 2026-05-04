@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* HEADER */
+header {
+    background-color: #b00000;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* IMAGE SECTION */
+.main-image {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-image img {
+    max-width: 100%;
+    max-height: 80vh;   /* fits screen height */
+    height: auto;
+    width: auto;
+    border: 3px solid #b00000;
+}
+
+/* FOOTER */
+footer {
+    background-color: #111;
+    text-align: center;
+    padding: 15px;
+    color: #ccc;
+    font-size: 14px;
+}
