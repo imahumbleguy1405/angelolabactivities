@@ -1,0 +1,131 @@
+/* Body */
+body {
+  margin: 0;
+  background: #c40000;
+  font-family: Impact, Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Background image */
+.background-image {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('imagess/background.jpg') no-repeat center center;
+  background-size: cover;
+  z-index: -1;
+}
+
+/* Header */
+header {
+  background: #000;
+  border-bottom: 4px solid #ff0000;
+  padding: 25px;
+  text-align: center;
+  box-shadow: 0 5px 0 #ff0000;
+}
+
+header h1 {
+  color: white;
+  font-size: 42px;
+  margin: 0;
+  text-shadow: 3px 3px 0 #ff0000;
+}
+
+header h3 {
+  color: white;
+  font-size: 22px;
+  margin-top: 8px;
+  font-weight: normal;
+}
+
+/* ✅ NAVIGATION (NEW - matches your assignment sample layout) */
+nav {
+  max-width: 850px;
+  margin: 20px auto;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  background: #000;
+  border: 2px solid white;
+  margin-bottom: 5px;
+  padding: 12px;
+  text-align: center;
+  box-shadow: 5px 5px 0 #ff0000;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: block;
+}
+
+/* Hover effect */
+nav ul li:hover {
+  background: red;
+}
+
+nav ul li:hover a {
+  color: black;
+}
+
+/* Main content */
+main {
+  max-width: 850px;
+  margin: 20px auto;
+  background: #000;
+  border: 4px solid white;
+  padding: 30px;
+  box-shadow: 10px 10px 0 #ff0000;
+  opacity: 0.96;
+}
+
+/* Sections */
+section {
+  margin-bottom: 30px;
+}
+
+/* Headings */
+h2 {
+  color: white;
+  font-size: 26px;
+  border-bottom: 2px solid white;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+  text-shadow: 2px 2px 0 #ff0000;
+}
+
+/* Text */
+p, li {
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+ul {
+  padding-left: 25px;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  border-top: 4px solid #ff0000;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -5px 0 #ff0000;
+}
+
+footer p {
+  color: white;
+  font-size: 16px;
+  margin: 4px 0;
+}
